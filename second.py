@@ -5,6 +5,7 @@ from flask import Flask, render_template, url_for
 app=Flask(__name__)
 manager=Manager(app)
 
+#写了些什么乱起八糟
 @app.route('/')
 def index():
     return render_template('hello.html')
